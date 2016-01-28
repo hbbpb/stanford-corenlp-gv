@@ -7,7 +7,6 @@
 .DS_Store
 .settings/**
 .idea/
-stanford-corenlp-3.6.0-gv.jar
 *.txt.json
 *.jar
 /libs

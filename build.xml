@@ -112,7 +112,7 @@
     </target>
 
     <target name="jar" depends="compile">
-        <jar destfile="stanford-corenlp-3.6.0-gv.jar">
+        <jar destfile="libs/stanford-corenlp-3.6.0-gv.jar">
             <fileset dir="${build.home}"/>
         </jar>
     </target>

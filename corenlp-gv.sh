@@ -18,5 +18,5 @@ else
   scriptdir=$(dirname "$scriptpath")
 fi
 
-echo java -mx4g -cp \"$scriptdir/*\" edu.stanford.nlp.pipeline.StanfordCoreNLPServer $*
-java -mx4g -cp "$scriptdir/*" edu.stanford.nlp.pipeline.StanfordCoreNLPServer $*
+echo java -mx4g -cp \"$scriptdir/libs/*\" edu.stanford.nlp.pipeline.StanfordCoreNLPServer $*
+java -mx4g -cp "$scriptdir/libs/*" edu.stanford.nlp.pipeline.StanfordCoreNLPServer $*

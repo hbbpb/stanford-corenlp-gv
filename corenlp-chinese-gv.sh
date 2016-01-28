@@ -18,5 +18,5 @@ else
   scriptdir=$(dirname "$scriptpath")
 fi
 
-echo java -mx4g -cp \"$scriptdir/*\" edu.stanford.nlp.pipeline.StanfordCoreNLP -props StanfordCoreNLP-chinese.properties -file chinese.txt -outputFormat json -timeout 20000
-java -mx4g -cp "$scriptdir/*" edu.stanford.nlp.pipeline.StanfordCoreNLP -props StanfordCoreNLP-chinese.properties -file chinese.txt -outputFormat json -timeout 20000
+echo java -mx4g -cp \"$scriptdir/libs/*\" edu.stanford.nlp.pipeline.StanfordCoreNLP -props StanfordCoreNLP-chinese.properties -file chinese.txt -outputFormat json -timeout 20000
+java -mx4g -cp "$scriptdir/libs/*" edu.stanford.nlp.pipeline.StanfordCoreNLP -props StanfordCoreNLP-chinese.properties -file chinese.txt -outputFormat json -timeout 20000
